@@ -1,0 +1,1 @@
+this is a short shell script project which can automatically send files to github.

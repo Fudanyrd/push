@@ -3,8 +3,8 @@ push(){
     # $1: url of github repository
     # $2: branch to be pushed
     echo "Please check your parameter"
-    ehco "$1"
-    ehco "$2"
+    echo "$1"
+    echo "$2"
 
     git push "$1" "$2"
     while [[ $? -ne 0 ]]

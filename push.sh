@@ -6,11 +6,15 @@ push(){
     echo "$1"
     echo "$2"
 
+    #add a counter.
+    counter=1
+
     git push "$1" "$2"
     while [[ $? -ne 0 ]]
     do
         git push "$1" "$2"
+        ((counter++))
     done
 
-    echo "done"
+    echo "successfully pushed to $1 after $counter times."
 }

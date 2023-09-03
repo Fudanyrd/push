@@ -1,4 +1,9 @@
-this is a short shell script project which can automatically send files to github.
+this is a short shell script project which can automatically send and receive files to github.    
+
+#why I need this project:
+As a github user from China Mainland, it is annoying that sometimes I cannot connect to github       
+server so I have to write commands like "git clone" and "git push" over and over again. Then it    
+came to me that I can ask bash to do this kind of repeative job.
 
 the input and output should be something like this:**    
 $ push http://github.com/Fudanyrd/push master:main    
@@ -17,4 +22,9 @@ Total 9 (delta 1), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (1/1), done.    
 To http://github.com/Fudanyrd/push    
  * [new branch]      master -> main    
-done     
+done    
+
+clone is the same.
+
+#What's next
+I may add counter to these tools.
